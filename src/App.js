@@ -5,7 +5,7 @@ function App() {
   
   const text = `text`;
   const style = {
-    marginTop: `10px`,
+    marginTop: `20px`,
     textTransform: `uppercase`,
     fontSize: `26px`,
     color: `green`
