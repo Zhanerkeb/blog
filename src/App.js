@@ -1,18 +1,14 @@
 import React from 'react';
 import './App.css';
+import About from "./containers/about";
 
 function App() {
   
-  const text = `text`;
-  const style = {
-    marginTop: `20px`,
-    textTransform: `uppercase`,
-    fontSize: `26px`,
-    color: `green`
-  }
 
   return (
-    <p style={style}>{text}</p>  
+    <div className="blocks">
+      <About/>
+    </div>
   );
 }
 
