@@ -4,7 +4,6 @@ import About from "./containers/about";
 
 function App() {
   
-
   return (
     <div className="blocks">
       <About/>
